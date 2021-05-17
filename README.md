@@ -1,5 +1,5 @@
 # sp-polkadot
-Polkadot Settpay-Plugin
+Polkadot-Kusama Settpay-Plugin
 
 ## Getting Started
 
