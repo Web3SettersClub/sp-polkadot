@@ -14,7 +14,7 @@ import 'package:settpay_ui/pages/txConfirmPage.dart';
 class StakePage extends StatefulWidget {
   StakePage(this.plugin, this.keyring);
   static final String route = '/staking/stake';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _StakePageState createState() => _StakePageState();

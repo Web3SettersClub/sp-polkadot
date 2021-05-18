@@ -10,7 +10,7 @@ import 'package:settpay_ui/components/roundedCard.dart';
 
 class Motions extends StatefulWidget {
   Motions(this.plugin);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
 
   @override
   _MotionsState createState() => _MotionsState();

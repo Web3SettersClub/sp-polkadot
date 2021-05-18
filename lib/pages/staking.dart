@@ -11,7 +11,7 @@ import 'package:settpay_sdk/utils/i18n.dart';
 class Staking extends StatefulWidget {
   Staking(this.plugin, this.keyring);
 
-  final PolkawalletPlugin plugin;
+  final SettPayPlugin plugin;
   final Keyring keyring;
 
   @override

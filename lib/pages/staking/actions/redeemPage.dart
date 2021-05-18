@@ -11,7 +11,7 @@ import 'package:settpay_ui/utils/format.dart';
 class RedeemPage extends StatefulWidget {
   RedeemPage(this.plugin, this.keyring);
   static final String route = '/staking/redeem';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _RedeemPageState createState() => _RedeemPageState();

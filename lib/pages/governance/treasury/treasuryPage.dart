@@ -8,11 +8,11 @@ import 'package:sp_polkadot/utils/i18n/index.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/components/topTaps.dart';
-import 'package:settpay_ui/ui.dart';
+import 'package:settpay_ui/settpay_ui.dart';
 
 class TreasuryPage extends StatefulWidget {
   TreasuryPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/treasury/index';

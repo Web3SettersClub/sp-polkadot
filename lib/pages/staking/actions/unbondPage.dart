@@ -12,7 +12,7 @@ import 'package:settpay_ui/utils/index.dart';
 class UnBondPage extends StatefulWidget {
   UnBondPage(this.plugin, this.keyring);
   static final String route = '/staking/unbond';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _UnBondPageState createState() => _UnBondPageState();

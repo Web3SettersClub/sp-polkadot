@@ -12,7 +12,7 @@ import 'package:settpay_ui/utils/format.dart';
 class BondExtraPage extends StatefulWidget {
   BondExtraPage(this.plugin, this.keyring);
   static final String route = '/staking/bondExtra';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _BondExtraPageState createState() => _BondExtraPageState();

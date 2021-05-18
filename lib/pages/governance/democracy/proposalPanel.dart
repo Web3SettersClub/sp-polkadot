@@ -15,7 +15,7 @@ import 'package:settpay_sdk/utils/i18n.dart';
 class ProposalPanel extends StatelessWidget {
   ProposalPanel(this.plugin, this.proposal);
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final ProposalInfoData proposal;
 
   @override

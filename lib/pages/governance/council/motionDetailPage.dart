@@ -20,7 +20,7 @@ import 'package:settpay_ui/utils/format.dart';
 
 class MotionDetailPage extends StatefulWidget {
   MotionDetailPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/council/motion';
@@ -398,7 +398,7 @@ class ProposalArgsItem extends StatelessWidget {
 class ProposalVotingList extends StatefulWidget {
   ProposalVotingList({this.plugin, this.council});
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final CouncilMotionData council;
 
   @override

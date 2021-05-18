@@ -13,7 +13,7 @@ import 'package:settpay_ui/pages/dAppWrapperPage.dart';
 class Gov extends StatelessWidget {
   Gov(this.plugin);
 
-  final PolkawalletPlugin plugin;
+  final SettPayPlugin plugin;
 
   @override
   Widget build(BuildContext context) {
