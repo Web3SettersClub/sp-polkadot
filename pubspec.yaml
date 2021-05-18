@@ -1,5 +1,5 @@
 name: sp_polkadot
-description: Polkadot-Kusama Settpay-Plugin
+description: A Settpay Application Plugin for Polkadot & Kusama support on the SettPay Wallet.
 version: 1.0.0
 author: Muhammad-Jibril B.A. <jbashir52@gmail.com>
 homepage: https://setheum.xyz
