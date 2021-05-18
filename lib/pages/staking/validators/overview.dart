@@ -32,7 +32,7 @@ const validator_list_page_size = 100;
 
 class StakingOverviewPage extends StatefulWidget {
   StakingOverviewPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _StakingOverviewPageState createState() => _StakingOverviewPageState();

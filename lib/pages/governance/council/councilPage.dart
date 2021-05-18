@@ -12,7 +12,7 @@ import 'package:settpay_ui/components/topTaps.dart';
 
 class CouncilPage extends StatefulWidget {
   CouncilPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/council/index';

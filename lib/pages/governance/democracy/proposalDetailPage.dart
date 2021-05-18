@@ -22,7 +22,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class ProposalDetailPage extends StatefulWidget {
   ProposalDetailPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/democracy/proposal';

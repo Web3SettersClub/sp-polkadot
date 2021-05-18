@@ -7,7 +7,7 @@ import 'package:settpay_ui/components/listTail.dart';
 
 class Proposals extends StatefulWidget {
   Proposals(this.plugin);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
 
   @override
   _ProposalsState createState() => _ProposalsState();

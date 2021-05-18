@@ -12,7 +12,7 @@ import 'package:settpay_ui/ui.dart';
 
 class TreasuryPage extends StatefulWidget {
   TreasuryPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/treasury/index';

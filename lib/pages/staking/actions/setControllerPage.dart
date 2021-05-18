@@ -12,7 +12,7 @@ import 'package:settpay_ui/components/txButton.dart';
 class SetControllerPage extends StatefulWidget {
   SetControllerPage(this.plugin, this.keyring);
   static final String route = '/staking/controller';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _SetControllerPageState createState() => _SetControllerPageState();

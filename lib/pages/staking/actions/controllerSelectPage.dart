@@ -10,7 +10,7 @@ import 'package:settpay_ui/utils/format.dart';
 
 class ControllerSelectPage extends StatelessWidget {
   ControllerSelectPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static final String route = '/staking/account/list';

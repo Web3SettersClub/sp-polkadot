@@ -16,7 +16,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class CouncilVotePage extends StatefulWidget {
   CouncilVotePage(this.plugin);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
 
   static final String route = '/gov/vote';
   @override

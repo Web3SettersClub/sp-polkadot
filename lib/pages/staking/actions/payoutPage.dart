@@ -11,7 +11,7 @@ import 'package:settpay_ui/utils/format.dart';
 class PayoutPage extends StatefulWidget {
   PayoutPage(this.plugin, this.keyring);
   static final String route = '/staking/payout';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _PayoutPageState createState() => _PayoutPageState();

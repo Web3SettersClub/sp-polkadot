@@ -14,7 +14,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class MoneyTips extends StatefulWidget {
   MoneyTips(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override

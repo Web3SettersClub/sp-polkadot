@@ -21,7 +21,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class SpendProposals extends StatefulWidget {
   SpendProposals(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override

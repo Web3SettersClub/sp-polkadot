@@ -15,7 +15,7 @@ import 'package:settpay_ui/utils/i18n.dart';
 class CandidateDetailPage extends StatefulWidget {
   CandidateDetailPage(this.plugin, this.keyring);
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static final String route = '/gov/candidate';

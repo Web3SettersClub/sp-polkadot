@@ -13,7 +13,7 @@ import 'package:settpay_ui/pages/txConfirmPage.dart';
 class NominatePage extends StatefulWidget {
   NominatePage(this.plugin, this.keyring);
   static final String route = '/staking/nominate';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _NominatePageState createState() => _NominatePageState();

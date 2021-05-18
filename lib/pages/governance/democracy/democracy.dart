@@ -19,7 +19,7 @@ import 'package:settpay_ui/pages/txConfirmPage.dart';
 class Democracy extends StatefulWidget {
   Democracy(this.plugin, this.keyring);
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override

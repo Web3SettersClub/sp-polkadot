@@ -12,7 +12,7 @@ class RewardDetailPage extends StatelessWidget {
   RewardDetailPage(this.plugin, this.keyring);
 
   static final String route = '/staking/rewards';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override

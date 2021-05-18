@@ -10,7 +10,7 @@ import 'package:settpay_ui/components/topTaps.dart';
 
 class DemocracyPage extends StatefulWidget {
   DemocracyPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/democracy/index';

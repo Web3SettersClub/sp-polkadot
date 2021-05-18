@@ -16,7 +16,7 @@ import 'package:settpay_ui/components/txButton.dart';
 class SetPayeePage extends StatefulWidget {
   SetPayeePage(this.plugin, this.keyring);
   static final String route = '/staking/payee';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _SetPayeePageState createState() => _SetPayeePageState();
@@ -141,7 +141,7 @@ class PayeeSelector extends StatefulWidget {
 
   static const options = ['Staked', 'Stash', 'Controller', 'Account'];
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   final OwnStashInfoData initialValue;
   final Function(int, String) onChange;

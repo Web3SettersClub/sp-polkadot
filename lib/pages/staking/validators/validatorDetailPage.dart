@@ -19,7 +19,7 @@ class ValidatorDetailPage extends StatelessWidget {
   ValidatorDetailPage(this.plugin, this.keyring);
   static final String route = '/staking/validator';
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override

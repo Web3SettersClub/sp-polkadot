@@ -15,7 +15,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class ReferendumVotePage extends StatefulWidget {
   ReferendumVotePage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static final String route = '/gov/referenda';

@@ -12,7 +12,7 @@ import 'package:settpay_ui/utils/format.dart';
 class RebondPage extends StatefulWidget {
   RebondPage(this.plugin, this.keyring);
   static final String route = '/staking/rebond';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   @override
   _RebondPageState createState() => _RebondPageState();

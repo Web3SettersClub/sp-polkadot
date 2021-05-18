@@ -13,7 +13,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class SubmitProposalPage extends StatefulWidget {
   SubmitProposalPage(this.plugin, this.keyring);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   static const String route = '/gov/treasury/proposal/add';

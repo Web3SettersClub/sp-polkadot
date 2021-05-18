@@ -16,7 +16,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class BondPage extends StatefulWidget {
   BondPage(this.plugin, this.keyring, {this.onNext});
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
   final Function(TxConfirmParams) onNext;
   @override

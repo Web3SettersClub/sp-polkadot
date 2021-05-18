@@ -9,14 +9,14 @@ import 'package:settpay_ui/components/passwordInputDialog.dart';
 import 'package:settpay_ui/utils/i18n.dart';
 
 class PluginApi {
-  PluginApi(PluginKusama plugin, Keyring keyring)
+  PluginApi(PluginPolkadot plugin, Keyring keyring)
       : staking = ApiStaking(plugin, keyring),
         gov = ApiGov(plugin, keyring),
         plugin = plugin;
   final ApiStaking staking;
   final ApiGov gov;
 
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
 
   Future<String> getPassword(BuildContext context, KeyPairData acc) async {
     final password = await showCupertinoDialog(

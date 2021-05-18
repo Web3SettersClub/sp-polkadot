@@ -21,7 +21,7 @@ import 'package:settpay_ui/utils/index.dart';
 
 class Council extends StatefulWidget {
   Council(this.plugin);
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
 
   @override
   State<StatefulWidget> createState() => _CouncilState();

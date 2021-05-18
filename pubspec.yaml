@@ -1,6 +1,6 @@
 name: sp_polkadot
 description: Polkadot-Kusama Settpay-Plugin
-version: 0.0.1
+version: 0.1.0
 author:
 homepage:
 
@@ -18,7 +18,7 @@ dependencies:
   json_annotation: ^3.0.1
   flutter_svg: ^0.19.3
   get_storage: ^1.2.1
-  settpay_sdk: ^0.1.7
+  settpay_sdk: ^1.0.1
   settpay_ui:
     git:
       url: https://github.com/SettPay/settpay-ui.git
