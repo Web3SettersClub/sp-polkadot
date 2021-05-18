@@ -5,7 +5,7 @@ import 'package:sp_polkadot/sp_polkadot.dart';
 import 'package:sp_polkadot/utils/i18n/index.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
-import 'package:settpay_ui/ui.dart';
+import 'package:settpay_ui/settpay_ui.dart';
 import 'package:settpay_ui/components/topTaps.dart';
 
 class DemocracyPage extends StatefulWidget {

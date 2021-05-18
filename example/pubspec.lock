@@ -403,10 +403,10 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: acf8f0d4d0bc3fa909aa2eeb397141ffb222e7ba
+      resolved-ref: "5ee8fe3b54380ba39b24946973c728f482bf8822"
       url: "https://github.com/SettPay/settpay-ui.git"
     source: git
-    version: "0.0.1"
+    version: "1.0.0"
   shared_preferences:
     dependency: transitive
     description:

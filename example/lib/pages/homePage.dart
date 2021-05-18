@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:settpay_ui/ui.dart';
+import 'package:settpay_ui/settpay_ui.dart';
 import 'package:settpay_sdk/plugin/index.dart';
 import 'package:settpay_sdk/plugin/homeNavItem.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
