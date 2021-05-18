@@ -11,7 +11,7 @@ class ApiStaking {
 
   final PluginPolkadot plugin;
   final Keyring keyring;
-  final PolkawalletApi api;
+  final SettPayApi api;
   final PluginStore store;
 
   Future<List> fetchAccountRewardsEraOptions() async {

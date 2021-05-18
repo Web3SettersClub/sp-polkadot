@@ -11,7 +11,7 @@ class ApiGov {
 
   final PluginPolkadot plugin;
   final Keyring keyring;
-  final PolkawalletApi api;
+  final SettPayApi api;
   final PluginStore store;
 
   Future<void> updateIconsAndIndices(List addresses) async {

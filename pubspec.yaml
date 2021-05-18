@@ -1,8 +1,8 @@
 name: sp_polkadot
 description: Polkadot-Kusama Settpay-Plugin
 version: 0.1.0
-author:
-homepage:
+author: Muhammad-Jibril B.A. <jbashir52@gmail.com>
+homepage: https://setheum.xyz
 
 environment:
   sdk: ">=2.10.0 <3.0.0"
