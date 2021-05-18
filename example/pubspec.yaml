@@ -28,7 +28,8 @@ dependencies:
   flutter_mobx: 1.1.0+2
   settpay_ui:
     git:
-      url: https://github.com/SettPay/settpay_ui.git
+      url: https://github.com/SettPay/settpay-ui.git
+      ref: master
 #    path: ../../ui
 
   # The following adds the Cupertino Icons font to your application.

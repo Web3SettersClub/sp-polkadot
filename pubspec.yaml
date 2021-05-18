@@ -1,6 +1,6 @@
 name: sp_polkadot
 description: Polkadot-Kusama Settpay-Plugin
-version: 0.1.0
+version: 1.0.0
 author: Muhammad-Jibril B.A. <jbashir52@gmail.com>
 homepage: https://setheum.xyz
 
@@ -22,6 +22,7 @@ dependencies:
   settpay_ui:
     git:
       url: https://github.com/SettPay/settpay-ui.git
+      ref: master
 
 dev_dependencies:
   build_runner: ^1.10.11
