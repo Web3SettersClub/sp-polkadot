@@ -402,8 +402,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: master
-      resolved-ref: "5ee8fe3b54380ba39b24946973c728f482bf8822"
+      ref: "v1.0.0"
+      resolved-ref: "9a73057fb4c3a30fc3e5abf17c3938bf301e8421"
       url: "https://github.com/SettPay/settpay-ui.git"
     source: git
     version: "1.0.0"
@@ -467,7 +467,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.0"
+    version: "1.0.1"
   stack_trace:
     dependency: transitive
     description:
