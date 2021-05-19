@@ -28,7 +28,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0"
+    version: "2.6.1"
   auth_header:
     dependency: transitive
     description:
@@ -612,8 +612,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: master
-      resolved-ref: "5ee8fe3b54380ba39b24946973c728f482bf8822"
+      ref: "v1.0.0"
+      resolved-ref: "9a73057fb4c3a30fc3e5abf17c3938bf301e8421"
       url: "https://github.com/SettPay/settpay-ui.git"
     source: git
     version: "1.0.0"
@@ -691,7 +691,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.1"
   stack_trace:
     dependency: transitive
     description:
@@ -733,7 +733,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.19"
+    version: "0.3.0"
   timing:
     dependency: transitive
     description:
